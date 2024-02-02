@@ -1,0 +1,21 @@
+{
+  "name": "chameleon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite serve --config ./vite.config.js ./src",
+    "start": "npm run dev",
+    "build": "vite build --config ./vite.config.js ./src",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.5.1",
+    "eslint": "^8.52.0",
+    "less": "^4.2.0",
+    "vite": "^4.5.0",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "dependencies": {
+  }
+}
